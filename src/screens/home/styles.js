@@ -46,7 +46,7 @@ export const HomeStyles = StyleSheet.create({
   welcomecontainer: {
     width: wp(343),
     height: hp(141),
-    top: hp(56),
+    // top: hp(56),
     borderRadius: hp(12),
     backgroundColor: colors.magenta,
   },

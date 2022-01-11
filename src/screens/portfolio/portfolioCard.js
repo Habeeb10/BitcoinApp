@@ -20,7 +20,7 @@ import colors from '../../common/colors';
 //   }
 // };
 
-export const CoinCard = ({
+export const PortfolioCard = ({
   icon,
   title,
   toppings,
