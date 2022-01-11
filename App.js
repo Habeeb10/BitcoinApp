@@ -1,6 +1,7 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import Home from './src/screens/home/home';
+import Navigator from './src/navigator/mainNavigation';
 
 export default function App() {
-  return <Home />;
+  return <Navigator />;
 }
