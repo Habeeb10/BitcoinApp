@@ -12,4 +12,7 @@ export default {
   green: '#21BF73',
   red: '#D90429',
   wheat: '#F8F9FA',
+  orange: '#F59300',
+  purple: '#9300F5',
+  ash: '#DFE2E4',
 };
