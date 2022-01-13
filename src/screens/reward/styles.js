@@ -1,0 +1,127 @@
+import {StyleSheet} from 'react-native';
+import colors from '../../common/colors';
+import {hp, wp} from '../../common/utils';
+
+export const rewardStyles = StyleSheet.create({
+  //   group: {
+  //     width: 90,
+  //     height: 90,
+  //     resizeMode: 'cover',
+  //     marginLeft: hp(60),
+  //   },
+  share: {
+    width: wp(156),
+    fontSize: hp(18),
+    color: colors.white,
+    marginTop: hp(8),
+    fontWeight: '500',
+    lineHeight: hp(22),
+  },
+  rewardcontainer: {
+    width: wp(343),
+    height: hp(160),
+    borderRadius: hp(12),
+    marginTop: hp(16),
+    backgroundColor: colors.purple,
+    paddingHorizontal: hp(20),
+  },
+  sharenow: {
+    fontWeight: '400',
+    fontSize: hp(12),
+    lineHeight: hp(15),
+    color: colors.purple,
+  },
+  coincontainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  referrall: {
+    width: 90,
+    height: 90,
+    resizeMode: 'cover',
+  },
+  refernow: {
+    fontWeight: '400',
+    fontSize: hp(12),
+    lineHeight: hp(15),
+    color: colors.orange,
+  },
+  frame: {
+    width: wp(92),
+    height: hp(31),
+    backgroundColor: colors.whitesmoke,
+    borderRadius: hp(4),
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  referFriend: {
+    width: wp(170),
+    fontSize: hp(18),
+    color: colors.white,
+    marginTop: hp(8),
+    fontWeight: '500',
+    lineHeight: hp(22),
+  },
+  refer: {
+    fontWeight: '400',
+    fontSize: hp(12),
+    lineHeight: hp(15),
+    color: colors.white,
+    marginTop: hp(20),
+  },
+  refercontainer: {
+    width: wp(343),
+    height: hp(160),
+    borderRadius: hp(12),
+    marginTop: hp(16),
+    backgroundColor: colors.orange,
+    paddingHorizontal: hp(20),
+  },
+  referallcontainer: {
+    width: wp(343),
+    height: hp(136),
+    borderRadius: hp(12),
+    marginTop: hp(4),
+    backgroundColor: colors.white,
+    paddingHorizontal: hp(20),
+  },
+  couponsnumber: {
+    color: colors.dark,
+    fontWeight: '500',
+    fontSize: hp(14),
+    lineHeight: hp(17),
+  },
+  couponnumber: {
+    color: colors.magenta,
+    fontWeight: '500',
+    fontSize: hp(14),
+    lineHeight: hp(17),
+  },
+  coupon: {
+    fontWeight: '400',
+    fontSize: hp(12),
+    lineHeight: hp(15),
+    color: colors.grey,
+  },
+  couponscontainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: hp(18),
+  },
+  heading: {
+    fontWeight: '700',
+    fontSize: hp(20),
+    lineHeight: hp(25),
+    color: colors.snuff,
+    marginTop: hp(20),
+  },
+  couponcontainer: {
+    width: wp(343),
+    height: hp(173),
+    borderRadius: hp(12),
+    marginTop: hp(20),
+    backgroundColor: colors.white,
+    paddingHorizontal: hp(20),
+  },
+});
