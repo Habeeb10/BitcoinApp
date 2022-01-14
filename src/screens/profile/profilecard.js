@@ -48,10 +48,7 @@ const styles = StyleSheet.create({
     marginTop: hp(20),
   },
   container: {
-    borderRadius: hp(8),
-    borderColor: colors.white,
     paddingHorizontal: hp(10),
-    justifyContent: 'center',
     height: hp(64),
     marginBottom: hp(5),
   },
